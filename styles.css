@@ -47,16 +47,18 @@ main{
 
 #cover{
     margin-right: 48px;
-    width: 200px;
-    height: 300px ;
+    width: 300px;
+    height: 500px ;
     border: 10px solid #354c46;
   
 }
 #star{
     display: flex;
     list-style: none;
-    max-width: 300px;
+    max-width: 200px;
     justify-content: space-between;
+    padding: 10px;
+    margin: 0%;
 }
 .subtitle{
     text-transform: uppercase;
@@ -68,6 +70,7 @@ h1{
 
     text-transform: uppercase;
     margin:0;
+    font-family: it;
 
 }
 .tag{
@@ -79,4 +82,31 @@ h1{
     display: flex;
     justify-content: space-between;
     width: 300px;
+}
+    
+}
+.line{
+    border-bottom: 2px solid #09fffd;
+
+}
+#downnav{
+    border-bottom: 2px solid #3687de;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #c4c4c4;
+}
+#text{
+    width: 500px;
+    height: 80px;
+}
+#h3{
+    text-transform: uppercase;
+background-color: #09fffd;
+margin: 0%;
+display: center;
+}
+@font-face{
+    font-family: IT;
+    src: url(poorich.ttf);
+    font-weight: normal;
 }
